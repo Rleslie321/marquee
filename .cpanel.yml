@@ -1,0 +1,11 @@
+---
+deployment:
+ tasks:
+    - export DEPLOYPATH=/home/robexhrv/public_html/projects/marquee
+    - /bin/cp -R /home/robexhrv/Marquee/build/static $DEPLOYPATH
+    - /bin/cp -R /home/robexhrv/Marquee/build/backgrounds $DEPLOYPATH
+    - /bin/cp /home/robexhrv/Marquee/build/abc_logo.svg $DEPLOYPATH
+    - /bin/cp /home/robexhrv/Marquee/build/asset-manifest.json $DEPLOYPATH
+    - /bin/cp /home/robexhrv/Marquee/build/index.html $DEPLOYPATH
+    - /bin/cp /home/robexhrv/Marquee/build/manifest.json $DEPLOYPATH
+    - /bin/cp /home/robexhrv/Marquee/build/robots.txt $DEPLOYPATH
