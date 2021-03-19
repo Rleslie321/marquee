@@ -8,7 +8,8 @@ import App from './App';
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  // basename is for where I have it stored on my personal website
+  <BrowserRouter basename="/projects/marquee">
     <App />
   </BrowserRouter>,
   document.getElementById('root')
