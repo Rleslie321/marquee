@@ -1,1 +1,1 @@
-React Project for interview. Utilizes react-router-dom to create a single-page application (SPA) that acts like a multi-page application (MPA). It loads all content from a json file. The technologies used are React, HTML, SASS, CSS, and JavaScript. Website: projects/marquee/services
+React Project for interview. Utilizes react-router-dom to create a single-page application (SPA) that acts like a multi-page application (MPA). It loads all content from a json file. The technologies used are React, HTML, SASS, CSS, and JavaScript. Website: projects/marquee/
