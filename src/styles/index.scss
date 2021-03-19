@@ -1,0 +1,60 @@
+// default css parameters
+// uses mobile first design so media queries affect when the elements grow larger
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    // width: 1440px;
+    max-width: 1440px;
+    height: 100%;
+    min-height: 100vh;
+    // padding: 18.9px 130px 0 127px;
+    background: rgba(0, 0, 0, 0.6);
+    object-fit: contain;
+    background-size: cover;
+    margin: auto;
+}
+
+
+@import './var';
+@import './app';
+@import './marquee';
+
+
+// fix size of headline font when on big devices
+@media (min-width:400px){
+    .headline{
+        @include text(5.25rem, 1, -2.2px, $white);
+    }
+}
+
+// change flow of page when on bigger screens
+@media (min-width:800px){
+    .layout{
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .headers{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cta{
+        flex-direction: row;
+    }
+
+    // fix the gaps that were necessary for smaller screens
+    .headline{
+        margin-right: 5rem;
+        margin-bottom: 0;
+    }
+    .connect{
+        margin: 0 7rem;
+        width: 16.454rem;
+    }
+}

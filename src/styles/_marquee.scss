@@ -1,0 +1,69 @@
+// css for the marquee component
+.marquee{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// css for the header section
+.headers{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.headline{
+    @include text(3.25rem, 1, -2.2px, $white);
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.subhead{
+    @include text(0.875rem, 1.86, normal, $white);
+    font-weight: 200;
+    margin-right: 2.5rem;
+}
+
+// css for the call to action
+.cta{
+    min-width: 100%;
+    min-height: 11.188rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $white;
+    
+}
+
+.cta-text{
+    // min-height: 2rem;
+    @include text(1.5rem, 1.33, -0.63px, $black);
+    margin: 0 5rem;
+}
+
+// css for the lets talk button
+.connect{
+    height: 1.25rem;
+    @include text(0.688rem, 1.82, 1px, $black);
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+
+    // keeps the white space between the text and the arrow
+    white-space: pre;
+    margin: 2rem 0;
+}
+
+.arrow{
+    width: 1.125rem;
+    height: 0.75rem;
+    color: $marigold;
+}

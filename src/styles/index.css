@@ -1,0 +1,310 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  height: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-size: cover;
+  margin: auto;
+}
+
+@-webkit-keyframes expand {
+  0% {
+    background-color: #ffc001;
+    opacity: 0;
+  }
+  25% {
+  }
+  50% {
+  }
+  75% {
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+@keyframes expand {
+  0% {
+    background-color: #ffc001;
+    opacity: 0;
+  }
+  25% {
+  }
+  50% {
+  }
+  75% {
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.layout {
+  min-height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.179rem 8.125rem;
+}
+
+.logo {
+  width: 4.728rem;
+  height: 2.363rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 0.958rem;
+}
+
+.layout button {
+  width: 8.688rem;
+  height: 2.625rem;
+  margin-top: 0.7rem;
+  padding: 0.75rem 0.063rem 0.75rem 0;
+  background: none;
+  border: 1px solid #ffffff;
+  border-radius: none;
+}
+
+.contact {
+  min-width: 8.625rem;
+  height: 1.125rem;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.938rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-align: center;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav-item {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.text-style-1 {
+  color: #ffc004;
+}
+
+main {
+  width: 100%;
+  min-height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 8rem;
+  -webkit-animation: expand 2s linear;
+          animation: expand 2s linear;
+}
+
+.marquee {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headers {
+  min-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.headline {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 3.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -2.2px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.subhead {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  color: #ffffff;
+  font-weight: 200;
+  margin-right: 2.5rem;
+}
+
+.cta {
+  min-width: 100%;
+  min-height: 11.188rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+}
+
+.cta-text {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.63px;
+  color: #000000;
+  margin: 0 5rem;
+}
+
+.connect {
+  height: 1.25rem;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.688rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.82;
+  letter-spacing: 1px;
+  color: #000000;
+  font-weight: 800 !important;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: pre;
+  margin: 2rem 0;
+}
+
+.arrow {
+  width: 1.125rem;
+  height: 0.75rem;
+  color: #ffc001;
+}
+
+@media (min-width: 400px) {
+  .headline {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 5.25rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -2.2px;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 800px) {
+  .layout {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .headers {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .cta {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .headline {
+    margin-right: 5rem;
+    margin-bottom: 0;
+  }
+  .connect {
+    margin: 0 7rem;
+    width: 16.454rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */

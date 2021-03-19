@@ -1,0 +1,62 @@
+// css for the layout level of website
+
+.layout{
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: space-between;
+    padding: 1.179rem 8.125rem;
+}
+
+// css for logo
+.logo{
+    width: 4.728rem;
+    height: 2.363rem;
+    object-fit: contain;
+    // background-color: #ffffff;
+    margin-bottom: 0.958rem;
+}
+
+// css for content button
+.layout button{
+    width: 8.688rem;
+    height: 2.625rem;
+    margin-top: 0.7rem;
+    padding: 0.75rem 0.063rem 0.75rem 0;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: none;
+}
+
+.contact{
+    min-width: 8.625rem;
+    height: 1.125rem;
+    @include text(0.938rem, normal, normal, $white);
+    text-align: center;
+}
+
+// css for navigation section
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item {
+    @include text(0.875rem, 1.86, normal, $white);
+    text-decoration: none;
+}
+
+.text-style-1 {
+    color: $yellow;
+}
+
+// css for main section
+main{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    padding: 0 8rem;
+    animation: expand 2s linear;
+}
