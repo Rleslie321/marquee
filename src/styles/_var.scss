@@ -1,4 +1,4 @@
-// variables and mixins
+// variables and mixins and animations
 
 $white: #ffffff;
 $black: #000000;
@@ -21,14 +21,20 @@ $yellow: #ffc004;
     0%{
         background-color: $marigold;
         opacity: 0;
+        transform: translateX(-100px);
     }
     25%{
+        background-color: $marigold;
+        opacity: 0.25;
     }
     50%{
+        opacity: 0.5;
     }
     75%{
+        opacity: 0.75;
     }
     100%{
-        background-color: rgba(0, 0, 0, 0.6);
+        opacity: 1;
+        background-color: none;
     }
 }

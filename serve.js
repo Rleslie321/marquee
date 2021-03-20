@@ -1,3 +1,5 @@
+// was trying to fix the refresh not working, luckily I didnt apply for a backend job
+
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 8000;

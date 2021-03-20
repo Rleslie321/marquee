@@ -34,6 +34,12 @@
     height: 1.125rem;
     @include text(0.938rem, normal, normal, $white);
     text-align: center;
+
+    &:hover{
+        color: $marigold;
+        cursor: pointer;
+        border-color: $marigold;
+    }
 }
 
 // css for navigation section
@@ -45,10 +51,15 @@ nav{
 .nav-item {
     @include text(0.875rem, 1.86, normal, $white);
     text-decoration: none;
+
+    &:hover{
+        color: $yellow;
+    }
 }
 
 .text-style-1 {
     color: $yellow;
+    cursor: default;
 }
 
 // css for main section
@@ -58,5 +69,4 @@ main{
     display: flex;
     justify-content: center;
     padding: 0 8rem;
-    animation: expand 2s linear;
 }
