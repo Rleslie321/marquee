@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 const path = require('path');
 
 // app.get('/*', (req, res) => {
@@ -14,6 +14,6 @@ const path = require('path');
 
 app.get('/services', (req, res) =>{
     res.send(`<h1>Hello world</h1>`);
-})
+});
 
 app.listen(port);
