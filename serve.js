@@ -12,7 +12,7 @@ const path = require('path');
 //     res.send("hello there");
 // });
 
-app.get('/', (req, res) =>{
+app.get('/services', (req, res) =>{
     res.send(`<h1>Hello world</h1>`);
 })
 
